@@ -1,9 +1,9 @@
 var linebreakStr = '\r\n'
-var body = 'Once upon a time \r\n \
-There was a guy \r\n \
-He was a pretty great guy \r\n \
-\r\n \
-the end \r\n \
+var body = 'Once upon a time \r\n\
+There was a guy \r\n\
+He was a pretty great guy \r\n\
+\r\n\
+the end \r\n\
 a concerned citizen'
 
 var mailto = {
@@ -14,4 +14,8 @@ var mailto = {
     body: body,
 }
 
-var mailtolink = 'mailto:' + mailto.address + '?bcc=' + mailto.bcc + '&subject=' + encodeURI(mailto.subject) + '&body=' + mailto.body
+var mailtolink = 'mailto:' + mailto.address + '?bcc=' + mailto.bcc + '&subject=' + encodeURI(mailto.subject) + '&body=' + encodeURI(mailto.body)
+
+var link = document.getElementById('mailto-link')
+
+link.href = mailtolink

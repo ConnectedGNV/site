@@ -104,14 +104,50 @@
     }
 }
 
-.b-splash__cta {
+
+.b-mailto {
     position: relative;
     padding: 90px @sectionPadding 0;
 }
 
-.b-splash__cta__container {
+.b-mailto-container {
     margin: 0 auto;
     max-width: 700px;
+    text-align: center;
+    background: @color_white;
+    padding: 15px;
+    color: black
+}
+
+.b-mailto-copy {
+    line-height: 2rem;
+}
+
+.b-mailto-link-container {
+    margin: 25px 0 10px;
+}
+
+.b-mailto-link {
+    padding: 10px 15px;
+    background: @color_secondary;
+    color: white;
+
+    &:hover {
+        color: white;
+    }
+}
+
+
+
+.b-splash__cta {
+    position: relative;
+    padding: 30px @sectionPadding 65px;
+    background: @color_teal_lite_1;
+}
+
+.b-splash__cta__container {
+    margin: 0 auto;
+    max-width: 840px;
     text-align: center;
 }
 
@@ -124,6 +160,15 @@
     background: @color_white;
     padding: 15px;
     color: black;
+    border: 1px solid rgba(0,0,0,0.7);
+    border-radius: 2px;
+}
+
+.b-splash__cta__header {
+    margin-bottom: 25px;
+    color: white;
+    font-weight: normal;
+    font-size: 2rem;
 }
 
 .b-splash__cta__petition {
@@ -325,7 +370,6 @@
     padding: 60px @sectionPadding;
     background: @color_gray_lite;
     border-top: 1px solid @color_gray;
-    border-bottom: 1px solid @color_gray;
 }
 
 .b-stats__copy {
