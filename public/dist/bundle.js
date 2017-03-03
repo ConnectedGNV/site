@@ -12099,7 +12099,7 @@ exports = module.exports = __webpack_require__(4)();
 
 
 // module
-exports.push([module.i, ".Nav__clearfix___3HY1M {\n  overflow: auto;\n  zoom: 1;\n}\n.Nav__container___1_Ol4 {\n  display: table;\n  position: relative;\n  padding: 40px 15px 0;\n  margin: 0 auto;\n  text-align: center;\n}\n.Nav__item___2GKp1 {\n  display: table-cell;\n  padding: 0 30px;\n}\n.Nav__active___1U12Q {\n}\n.Nav__active___1U12Q .Nav__link___1S-Fl {\n  text-decoration: underline;\n}\n.Nav__link___1S-Fl {\n  color: white;\n  text-decoration: none;\n  font-size: 1.1rem;\n}\n.Nav__link___1S-Fl:hover {\n  color: white;\n  text-decoration: underline;\n  cursor: pointer;\n}\n.Nav__link___1S-Fl:active {\n  text-decoration: underline;\n}\n", ""]);
+exports.push([module.i, ".Nav__clearfix___3HY1M {\n  overflow: auto;\n  zoom: 1;\n}\n.Nav__container___1_Ol4 {\n  display: block;\n  position: relative;\n  padding: 30px 15px 0;\n  margin: 0 auto;\n  text-align: center;\n}\n.Nav__item___2GKp1 {\n  display: inline-block;\n  padding: 10px 30px 0 30px;\n}\n.Nav__active___1U12Q {\n}\n.Nav__active___1U12Q .Nav__link___1S-Fl {\n  text-decoration: underline;\n}\n.Nav__link___1S-Fl {\n  color: white;\n  text-decoration: none;\n  font-size: 1.1rem;\n}\n.Nav__link___1S-Fl:hover {\n  color: white;\n  text-decoration: underline;\n  cursor: pointer;\n}\n.Nav__link___1S-Fl:active {\n  text-decoration: underline;\n}\n", ""]);
 
 // exports
 exports.locals = {
