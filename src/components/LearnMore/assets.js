@@ -17,6 +17,12 @@ export const learn_more = [
         label: 'Resources',
         blurb: 'Find out more about the Federal governmnent\'s stance on these issues, municipal fiber networks from around the country, and the progress Gainesville, UF, and the state of Florida have made toward a better connectivity solution.',
     },
+    {
+        id: 'questionnaires',
+        link: '/public/Questionnaire.pdf',
+        label: 'Candidate Questionnaires',
+        blurb: 'The election is on March 14th. Do you know who you\'re voting for? See the candidate questionnaires for Connected Gainesville and learn where each candidate stands on internet access.',
+    },
     //employer signature templates
 
 ]
